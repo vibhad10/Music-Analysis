@@ -12,26 +12,26 @@ Using machine learning / artificial intelligence algorithms to translate audio f
 
 ## Libraries Used: 📓
 ```
-pydub 🏆: open-source package for audio manipulation in Python. Pydub uses ffmpeg or libav under the hood for audio 
+pydub : open-source package for audio manipulation in Python. Pydub uses ffmpeg or libav under the hood for audio 
         manipulation. We will use Pydub to read the audio file and apply different audio effects on it.
 ```
 
 ```
 These libraries are used hand-in-hand:
 
-pandas 🐼 : used for data preparation and manipulation
-sklearn 🧮 : provides machine learning algorithms and tools
-matplotlib 📈 : helps visualize the data and results. 
+pandas : used for data preparation and manipulation
+sklearn : provides machine learning algorithms and tools
+matplotlib : helps visualize the data and results. 
 ```
 
 ```
-wave 🌊: is a built-in library that provides functionalities for working with WAV audio files. The wave module 
+wave : is a built-in library that provides functionalities for working with WAV audio files. The wave module 
        allows you to read and write WAV files, retrieve information about the audio file, and manipulate audio 
        data.
 ```
 
 ```
-librosa 📚: audio analysis and feature extraction. It provides a wide range of tools and functionalities to work 
+librosa : audio analysis and feature extraction. It provides a wide range of tools and functionalities to work 
           with audio data in various forms. Librosa is commonly used in fields such as music information retrieval,
           audio signal processing, and machine learning.  
           
@@ -40,7 +40,7 @@ Functionalitites : Audio Loading, Spectrogram and Feature Extraction, Beat and T
 ```
 
 ```
-scipy 🛸: open-source Python library used for scientific and technical computing. It provides a collection of 
+scipy : open-source Python library used for scientific and technical computing. It provides a collection of 
         numerical algorithms and tools built on top of the NumPy library. SciPy is designed to work with arrays
         and matrices and offers a wide range of functions for mathematical operations, optimization, signal and
         image processing, statistics, linear algebra, and more.
